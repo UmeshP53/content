@@ -104,7 +104,7 @@ function func2(d, e, f, g) {
 }
 
 let obj1 = Reflect.construct(func1, ['I', 'Love', 'my', 'India'])
-obj1
+// obj1 logs "India"
 ```
 
 However, while the end result is the same, there is one important difference in the
